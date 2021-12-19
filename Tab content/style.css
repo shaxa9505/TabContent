@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.menu{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.menu .block{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.menu .block .home{
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu .block .about{
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu .block .service{
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu .block .contact{
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu .bloc{
+    position: relative;
+}
+.menu .bloc .blok1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.menu .bloc .blok1 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .bloc .blok1 .box h2{
+    margin-top: 20px;
+}
+.menu .bloc .blok1 .box .price{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menu .bloc .blok1 .box button{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(127, 127, 141);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu .bloc .blok2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.menu .bloc .blok2 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .bloc .blok2 .box h2{
+    margin-top: 20px;
+}
+.menu .bloc .blok2 .box .price{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menu .bloc .blok2 .box button{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(127, 127, 141);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu .bloc .blok3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.menu .bloc .blok3 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .bloc .blok3 .box h2{
+    margin-top: 20px;
+}
+.menu .bloc .blok3 .box .price{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menu .bloc .blok3 .box button{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(127, 127, 141);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu .bloc .blok4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.menu .bloc .blok4 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .bloc .blok4 .box h2{
+    margin-top: 20px;
+}
+.menu .bloc .blok4 .box .price{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menu .bloc .blok4 .box button{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(127, 127, 141);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
